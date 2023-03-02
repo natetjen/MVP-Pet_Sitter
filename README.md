@@ -33,7 +33,7 @@ Contributions are welcome! Please create an issue to discuss your proposed chang
 
 ## **Getting Started**
 1. clone the repository
-  - git clone https://github.com/natetjen/MVP-Pet_Sitter.git
+   - git clone https://github.com/natetjen/MVP-Pet_Sitter.git
 2. Install the required packages
   - cd MVP-Pet_Sitter
   - npm install
