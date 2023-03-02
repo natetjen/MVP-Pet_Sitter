@@ -13,7 +13,7 @@ Pet owners and pet sitters available to help are listed under the "petsitter-lis
 Currently, the website is still under construction, and features such as messaging, requesting, posting for help, and rating, recommendation, and testimony for pet sitters and pet owners are yet to be added.
 
 ## **Technologies Used**
-- REACT <i class="fab fa-react fa-lg" style="font-weight:900;"></i>
+- REACT <i class="fab fa-react"></i>
 - Express
 - Node
 - MongoDB
