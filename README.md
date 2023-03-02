@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://kit.fontawesome.com/269ed635c4.css" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/269ed635c4.js" crossorigin="anonymous"></script>
 
 
 # MVP-Pet_Sitter
