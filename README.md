@@ -42,7 +42,7 @@ Contributions are welcome! Please create an issue to discuss your proposed chang
 3. Set up environment by creating .env
   - sudo nano .env
 4. Enter your port in the .env
-   - PORT = "<whatever port you want>"
+   - PORT = &lt; whatever port you want &lt;
    - e.g(PORT=3000)
 5. npm start
-6. Visit http://localhost:"<whatever port you enter>" in your web browser
+6. Visit http://localhost: &lt;whatever port you enter&lt; in your web browser
