@@ -33,14 +33,14 @@ Contributions are welcome! Please create an issue to discuss your proposed chang
 
 ## **Getting Started**
 1. clone the repository
-- git clone https://github.com/natetjen/MVP-Pet_Sitter.git
+  - git clone https://github.com/natetjen/MVP-Pet_Sitter.git
 2. Install the required packages
-- cd MVP-Pet_Sitter
-- npm install
+  - cd MVP-Pet_Sitter
+  - npm install
 3. Set up environment by creating .env
-sudo nano .env
+  - sudo nano .env
 4. Enter your port in the .env
-- PORT = <whatever port you want>
-- e.g(PORT=3000)
+  - PORT = <whatever port you want>
+  - e.g(PORT=3000)
 5. npm start
 6. Visit http://localhost:<whatever port you enter> in your web browser
