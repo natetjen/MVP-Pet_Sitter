@@ -11,14 +11,14 @@ function SignUp({backStatus, setBack, trigger, setTrigger, setCreateNew}) {
   const [name, setName] = useState('')
   const [number, setNumber] = useState('')
   const [petsNum, setPetsNum] = useState(0)
-  const [petSitter, setPetSitter] = useState(null)
+  const [petSitter, setPetSitter] = useState(undefined)
   const [petsArray, setPetsArray] = useState([])
   const [profilePhoto, setProfilePhoto] = useState('')
   const [ppFile, setPPfile] = useState('')
   const [ppDis, setPPDis] = useState('')
-  const [zip, setZip] = useState(null)
-  const [spinnerDis, setSpinnerDis] = useState(false)
-  const [warning, setWarning] = useState('none')
+  const [zip, setZip] = useState(undefined)
+  const [spinnerDis, setSpinnerDis] = useState(undefined)
+  const [warning, setWarning] = useState(true)
 
   const emailHandler = (e) => {
     setEmail(e.target.value)
@@ -30,8 +30,9 @@ function SignUp({backStatus, setBack, trigger, setTrigger, setCreateNew}) {
   const signUp = async (e) => {
     e.preventDefault();
     let sitterObject = {};
-    if (name === '' || number === '' || petSitter === null || zip === null) {
-      setWarning('')
+    if (name === '' || number === '' || !zip || petsitter === undefined) {
+      console.log('i am here')
+      setWarning(false)
       return
     }
     setSpinnerDis(true)
@@ -184,7 +185,7 @@ function SignUp({backStatus, setBack, trigger, setTrigger, setCreateNew}) {
           </label>
           <br/>
         <button>Sign up</button>
-        <div className='warning' style={{display:warning}} >Please make sure that name, phone number, and zipcode are filled</div>
+        <div className='warning' hidden={warning} >Please make sure that name, phone number, and zipcode are filled</div>
         <button onClick={(e) => {setBack(!backStatus)}}>back</button>
       </form>
     </div>

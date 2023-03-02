@@ -284,10 +284,10 @@ button:hover {
 
 .sign-up-container .warning {
   color: #ff0000;
+  background-color: white;
   font-size: 16px;
   font-weight: 400;
   margin-top: 10px;
-  display: none;
 }
 
 .sign-up-container .upload-profilepic {
