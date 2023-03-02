@@ -17,10 +17,10 @@ Currently, the website is still under construction, and features such as messagi
 - Firebase Aut
 
 ## **How to Use the Website**
-Sign up and create an account by filling in the required information, including your pets' details and location.
-Set your availability status to pet sit.
-Search for pet owners and pet sitters who are available to help within a specified radius of your location.
-Contact pet sitters or pet owners available to help through email or phone number.
+`1.` Sign up and create an account by filling in the required information, including your pets' details and location.
+`1.` Set your availability status to pet sit.
+`3.` Search for pet owners and pet sitters who are available to help within a specified radius of your location.
+`4.` Contact pet sitters or pet owners available to help through email or phone number.
 
 ## **Future Features**
 Messaging Feature
