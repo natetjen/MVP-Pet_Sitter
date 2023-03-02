@@ -28,16 +28,19 @@ Currently, the website is still under construction, and features such as messagi
 3. Help Post Page (a page where you can post that you need help, and an available pet sitter can pick it up)
 4. Pet sitter and pet owner rating, recommendation, and testimony.
 
+## **Contributing**
+Contributions are welcome! Please create an issue to discuss your proposed changes before submitting a pull request.
+
 ## **Getting Started**
 1. clone the repository
-git clone https://github.com/natetjen/MVP-Pet_Sitter.git
+- git clone https://github.com/natetjen/MVP-Pet_Sitter.git
 2. Install the required packages
-cd MVP-Pet_Sitter
-npm install
+- cd MVP-Pet_Sitter
+- npm install
 3. Set up environment by creating .env
 sudo nano .env
 4. Enter your port in the .env
-PORT = <whatever port you want>
-e.g(PORT=3000)
+- PORT = <whatever port you want>
+- e.g(PORT=3000)
 5. npm start
 6. Visit http://localhost:<whatever port you enter> in your web browser
