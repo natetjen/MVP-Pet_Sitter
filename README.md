@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="https://kit.fontawesome.com/269ed635c4.css" crossorigin="anonymous">
-<script src="https://kit.fontawesome.com/269ed635c4.js" crossorigin="anonymous"></script>
 
 
 # MVP-Pet_Sitter
@@ -14,7 +13,7 @@ Pet owners and pet sitters available to help are listed under the "petsitter-lis
 Currently, the website is still under construction, and features such as messaging, requesting, posting for help, and rating, recommendation, and testimony for pet sitters and pet owners are yet to be added.
 
 ## **Technologies Used**
-- REACT <i class="fa-brands fa-react"></i>
+- REACT <i class="fa-solid"></i>
 - Express
 - Node
 - MongoDB
