@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const history = require('connect-history-api-fallback');
+const controller = require('./controller/controller.js')
 
 const app = express();
 
@@ -12,6 +13,10 @@ app.use(bodyParser());
 app.use(express.json());
 app.use(history());
 app.use(express.static(path.join(`${__dirname}/../client/dist`)));
+app.post('/petsitter', controller.newProfile)
+app.get('/petsitter', controller.findProfile)
+app.put('/availability', controller.availabilityUpdate)
+app.get('/searchSitter', controller.searchSitter)
 
 // app.use('/db', router);
 

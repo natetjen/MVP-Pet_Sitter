@@ -30,11 +30,12 @@ function SignIn({setCreateNew, trigger, setTrigger}) {
 
   return (
     <div className = 'sign-in-container'>
-      <form className='login-form' onSubmit={signIn}>
+      <form className='login-form'>
         <h1 className='login text'>Log In</h1>
         <input type='email' placeholder='Enter you email' value={email} onChange={emailHandler}/>
         <input type='password' placeholder='Enter your password' value={password} onChange={passwordHandler}/>
-        <button>Log In</button>
+        <button onClick={signIn}>Log In</button>
+        <br/>
         <div className='warning' style={{display:warning}}>Username or Password is incorrect</div>
       </form>
       <button onClick={()=>setCreateNew(true)}>Create a new Account</button>

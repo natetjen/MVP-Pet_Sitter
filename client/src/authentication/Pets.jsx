@@ -2,13 +2,14 @@ import React, { useState, useEffect, createContext, useContext } from 'react';
 import PetEntry from './PetsComp/PetEntry.jsx'
 
 
-function Pets({petsArray, pets}) {
-  console.log(petsArray.length)
+function Pets({petsArray, setPetsArray}) {
+  let count = -1;
   return (
     <div className = 'pets-container'>
       {petsArray.map((pet) => {
-        console.log('hello')
-        return (<PetEntry petArray={pets}/>)
+        count++
+        return (<PetEntry petsArray={petsArray}
+          setPetsArray={setPetsArray} count={count}/>)
       })}
     </div>
   );
